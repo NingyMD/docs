@@ -48,7 +48,7 @@ run the following command and try `mkdocs serve` again.
 ```
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 ```
-<sub>Used for temporary Testing and *should* make mkdocs commands work in whatever powershell terminal you ran it in. Restart PC to make sure the fix applys permanently once you've tested it sucessfully once.</sub>
+<sub>Used for temporary Testing and *should* make mkdocs commands work in whatever powershell terminal you ran it in. Restart PC to apply fix permanently after testing.</sub>
 
 
 </details>
