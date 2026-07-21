@@ -8,10 +8,6 @@ Install `mkdocs`
 ```
 pip install -r requirements.txt
 ```
-Verify `mkdocs` install
-```
-python -m mkdocs --version
-```
 
 Run server
 ```
@@ -28,18 +24,22 @@ Edit markdown files in docs folder
 
 <details>
 <summary><h1>Troubleshooting</h1></summary>
-## Windows
+<h2>Windows</h2>
+
 If `mkdocs` was not found and game a message like <ins>The term 'mkdocs' is not recognized as the name of a cmdlet, function, script file, or operable program.</ins>
 
-Then run this command in your powershell terminal and copy the result.
+Verify you have `mkdocs` installed
 ```
-python -c "import sys; print(sys.executable)"
+python -m mkdocs --version
 ```
-You should get something like this `C:\Users\MyUserName\AppData\Local\Python\pythoncore-3.14-64\python.exe`. Left Click to copy it.
+
+If it shows an install file path in the powershell then copy it.
+
+You should get something like this `C:\Users\JohnDoe\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\mkdocs`. Left Click to copy it.
 
 Then press `windows + s` and write `Enviroment Variables` then click `enter`. 
 Find <ins>User variables for **Username**</ins> and under the **Variable** look for `Path` and edit.
-Add **New**, and pase what you copied earlyer. Now change `python.exe` to `Scripts` (Case Sensitive)
+Add **New**, and pase what you copied earlyer. Now change `Lib\site-packages\mkdocs` in the file path to `Scripts` (Case Sensitive)
 
 Save the file (OK button)
 
