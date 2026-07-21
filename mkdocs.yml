@@ -19,6 +19,16 @@ theme:
 plugins:
   - search
   - awesome-nav
+  - git-revision-date-localized:
+      type: timeago
+      custom_format: "%d. %B %Y"
+      locale: en_US
+  - git-committers:
+      repository: StationeersLaunchPad/docs
+      branch: master
+      enabled: true         # Changed to false for local builds to increase loading speed.
+      exclude:
+        - slp/update_error_0.2.25.md
   - redirects:
       redirect_maps:
         'codemod.md': 'modding/codemod.md'
