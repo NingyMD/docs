@@ -35,7 +35,7 @@ python -m mkdocs --version
 
 If it shows an install file path in the powershell then copy it.
 
-You should get something like this `C:\Users\JohnDoe\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\mkdocs`. Left Click to copy it.
+You should get something like this `C:\Users\JohnDoe\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\mkdocs`. Copy the file path you got from the command.
 
 Then press `windows + s` and write `Enviroment Variables` then click `enter`. 
 Find <ins>User variables for **Username**</ins> and under the **Variable** look for `Path` and edit.
