@@ -27,8 +27,8 @@ Edit markdown files in docs folder
 
 
 <details>
-<summary><h1>Windows</h1></summary>
-
+<summary><h1>Troubleshooting</h1></summary>
+## Windows
 If `mkdocs` was not found and game a message like <ins>The term 'mkdocs' is not recognized as the name of a cmdlet, function, script file, or operable program.</ins>
 
 Then run this command in your powershell terminal and copy the result.
